@@ -10,6 +10,12 @@ body {
     background-size: cover;
 }
 
+a {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+
 .cabecalho {
     background-color: rgb(32, 32, 32);
     box-shadow: 1px 1px 4px black;
