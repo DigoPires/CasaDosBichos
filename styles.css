@@ -11,7 +11,7 @@ body {
 }
 
 .cabecalho {
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(32, 32, 32);
     box-shadow: 1px 1px 4px black;
     display: flex;
     flex-direction: row;
@@ -29,8 +29,8 @@ body {
 }
 
 .cabecalho-menu-logo {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .cabecalho-menu-itens {
@@ -127,6 +127,18 @@ body {
 
 .conteiner-conteudo {
     background-color: rgb()31, 31, 31;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-animal {
+    border-top: 0.4px solid #fff2f2;
+    border-bottom: 0.4px solid #fff2f2;
+    width: 350px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 50px;
 }
 
 @media (max-width: 1440px) {
