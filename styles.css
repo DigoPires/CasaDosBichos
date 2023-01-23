@@ -134,11 +134,19 @@ body {
 
 .conteudo-animal {
     border-top: 0.4px solid #fff2f2;
-    border-bottom: 0.4px solid #fff2f2;
     width: 350px;
     height: 300px;
     padding: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.conteudo-escrito {
+    text-align: center;
     border-radius: 50px;
+    color: #ffffff;
+    background-color: rgb(32,32,32);
+    border-bottom: 0.4px solid #fff2f2;
 }
 
 @media (max-width: 1440px) {
