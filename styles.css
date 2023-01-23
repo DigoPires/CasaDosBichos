@@ -1,30 +1,114 @@
-.botoes {
-    border: none;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    background-color: rgb(255, 0, 0);
 }
 
-/* cor quando mouse estiver sobre o botao */
-button:hover.botoes {
-    background-color: rgba(255, 0, 0, 0.185);
+body {
+    background-image: url(/Imagens/background.jpg);
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: rgb(31, 31, 31);
+    margin-left: 20px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.cabecalho-menu-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.cabecalho-menu-itens {
+    text-decoration: none;
+    color: inherit;
     color: white;
 }
 
-.navitems {
-    text-decoration: none;
-    color: inherit;
+/* cor quando o mouse estiver sobre os items da navbar */
+.cabecalho-menu-itens:hover {
+    color: #E54E4E;
 }
 
-/* cor quando o mouse estiver sobre os items da navbar */
-a:hover.navitems {
-    color: rgb(248, 10, 10);
+.cabecalho-menu-botoes {
+    margin-left: 1220px;
+}
+
+.cabecalho-menu-botao-cadastro {
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+
+/* cor quando mouse estiver sobre o botao */
+.cabecalho-menu-botao-cadastro:hover {
+    background-color: rgb(133, 133, 133);
+    color: white;
+}
+
+.cabecalho-menu-botao-entrar{
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #E54E4E;
+}
+
+.cabecalho-menu-botao-entrar:hover {
+    background-color:  rgb(80, 0, 0);
+    color: white;
+}
+
+.menu {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.menu-titulo {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.menu-botao {
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #E54E4E;
+    display: flex;
+}
+
+.menu-botao:hover {
+    background-color: rgb(80, 0, 0);
 }
