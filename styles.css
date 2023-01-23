@@ -15,10 +15,11 @@ body {
     flex-direction: row;
     padding: 5px;
     background-color: rgb(31, 31, 31);
-    margin-left: 20px;
+    box-shadow: 1px 1px 4px black;
 }
 
 .cabecalho-menu {
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,7 +87,6 @@ body {
 
 .menu {
     margin-bottom: 48px;
-    border-top: 0.4px solid #ffffff;
 }
 
 .menu-titulo {
