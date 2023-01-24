@@ -10,19 +10,11 @@ body {
     background-size: cover;
 }
 
-a {
-    color: #ffffff;
-    text-decoration-line: none;
-}
-
-
 .cabecalho {
     background-color: rgb(32, 32, 32);
     box-shadow: 1px 1px 4px black;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    padding: 5px;
 }
 
 .cabecalho-menu {
@@ -30,7 +22,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row;
     gap: 32px;
 }
 
@@ -149,11 +140,21 @@ a {
 }
 
 .conteudo-adote {
+    font-size: 40px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    margin: 2px;
+    padding: 170px;
+    background-color: rgba(0,0,0,0.5);
     text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    opacity: 0;
 }
+
+.conteudo-adote:hover{
+    opacity: 1;
+}
+
 
 .conteudo-animal {
     border-top: 0.4px solid #fff2f2;
@@ -162,11 +163,6 @@ a {
     padding: 5px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-}
-
-.conteudo-animal:hover {
-    opacity: 0.3;
-
 }
 
 @media (max-width: 1440px) {
