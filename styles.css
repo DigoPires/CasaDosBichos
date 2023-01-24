@@ -148,6 +148,13 @@ a {
     border-bottom: 0.4px solid #fff2f2;
 }
 
+.conteudo-adote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
 .conteudo-animal {
     border-top: 0.4px solid #fff2f2;
     width: 450px;
@@ -157,10 +164,9 @@ a {
     border-top-right-radius: 50px;
 }
 
-.conteudo-escrito:hover {
-    width: 400;
-    height: 350;
-    background-color: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+.conteudo-animal:hover {
+    opacity: 0.3;
+
 }
 
 @media (max-width: 1440px) {
