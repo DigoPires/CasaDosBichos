@@ -1,14 +1,16 @@
 body {
     margin: 0%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Imagens/background-login.jpg);
+    background-size: cover;
 }
 
-.main-cadastro {
+.main-login {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 
-.section-cadastro-1 {
+.section-login-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,8 +20,19 @@ body {
     width: 300px;
 }
 
+.inicio {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+.inicio:hover {
+    color: rgb(90, 90, 90);
+}
+
 .div-logo {
-    margin-top: 1em;
+    margin-top: 0em;
 }
 
 .logo {
@@ -36,15 +49,19 @@ body {
     margin-bottom: -1em;
 }
 
-.div-logar-p {
+.div-cadastrar-p {
     margin-bottom: 1em;
 }
 
-.button-entrar {
+.div-cadastrar-escrita{
+    text-align: center;
+}
+
+.button-cadastrar {
     width: 150px;
     height: 50px;
     text-decoration: none;
-    padding: 0.5em 2.5em;
+    padding: 0.5em 2em;
     border-radius: 25px;
     border-color: white;
     background-color: black;
@@ -56,15 +73,18 @@ body {
     background-color: rgb(90, 90, 90);
 }
 
-.section-cadastro-2 {
+.section-login-2 {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
 
-.div-crie-conta {
-    padding-top: 10em;
+.div-login-conta {
+    font-size: 30px;
+    padding-top: 4em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .div-inputs {
@@ -83,13 +103,15 @@ input {
     background-color: #f5f2f2;
 }
 
-.button-cadastrar {
-    margin-top: 4em;
-    padding: 1.3em 3.5em;
-    border-radius: 25px;
-    border: none;
+.button-entrar {
+    font-size: 20px;
+    margin-top: 2em;
+    padding: 1em 2.5em;
+    border-radius: 30px;
+    border-color: white;
     background-color: black;
     color: white;
+
 }
 
 .button-cadastrar:hover {
@@ -97,7 +119,7 @@ input {
 }
 
 @media (max-width: 1440px) {
-    .section-cadastro-1 {
+    .section-login-1 {
         height: 757px;
     }
 }
