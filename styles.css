@@ -173,18 +173,26 @@ html, body {
 }
 
 .sobre-nos {
+    border-top: 0.4px solid #ffffff;
     color: white;
+    padding-bottom: 160px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     background-color: rgb(32, 32, 32);
     margin-top: 120px;
 }
 
 .titulo-sobre-nos {
+    text-align: center;
+    font-size: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
-    font-size: 50px;
+}
+
+.texto-sn{
+    margin-top: 45px;
+    font-size: 18px;
 }
 
 .conteiner-logo-sn {
@@ -204,14 +212,28 @@ html, body {
 .texto-sobre-nos {
     display: table-cell;
     float: left;
-    margin-top: 190px;
+    margin-top: 120px;
     width: 450px;
 }
 
 .contato {
+    border-top: 0.4px solid #fff2f2;
     color: white;
     text-align: center;
     background-color: rgb(32, 32, 32);
+}
+
+#botao-contato {
+    font-size: 50px;
+}
+
+.texto-contato {
+    margin-bottom: 30px;
+}
+
+.titulo-contato {
+    font-size: 40px;
+    padding: 40px;
 }
 
 .div-inputs {
@@ -243,7 +265,7 @@ textarea {
     border: none;
     border-radius: 20px;
     color: rgb(255, 255, 255);
-    padding: 10px 20px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -251,6 +273,7 @@ textarea {
     transition-duration: 0.3s;
     cursor: pointer;
     background-color: #E54E4E;
+    margin-bottom: 40px;
 }
 
 .btn_submit:hover {
@@ -266,7 +289,7 @@ textarea {
     padding: 30px;
     color: white;
     text-align: center;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(19, 19, 19);
 }
 
 @media (max-width: 1440px) {
