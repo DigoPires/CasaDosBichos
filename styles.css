@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Imagens/background.jpg);
     background-size: cover;
@@ -32,13 +36,21 @@ body {
 
 .cabecalho-menu-itens {
     text-decoration: none;
-    color: inherit;
     color: white;
 }
 
 /* cor quando o mouse estiver sobre os items da navbar */
 .cabecalho-menu-itens:hover {
     color: #E54E4E;
+}
+
+.cabecalho-lista {
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+.cabecalho-lista:hover {
+    list-style: none;
 }
 
 .cabecalho-menu-botoes {
