@@ -32,11 +32,14 @@
             <div class="cbc">
                 <nav class="cabecalho-menu">
                     <a href=""><img class="cabecalho-menu-logo" src="Imagens/Logo.png" alt=""></a>
-                    <a href="" class="cabecalho-menu-itens">Início</a>
+                    <li class="cabecalho-lista">
+                        <a href="" class="cabecalho-menu-itens">Início</a>
+                    </li>
                     <li class="cabecalho-lista">
                         <a href="#botao-contato" class="cabecalho-menu-itens">Contato</a>
+                    </li>
                     <li class="cabecalho-lista">
-                        <a href="#botao-sobre-nos"  class="cabecalho-menu-itens">Sobre nós</a>
+                        <a href="#botao-sobre-nos" class="cabecalho-menu-itens">Sobre nós</a>
                     </li>
                     <div class="cabecalho-menu-botoes">
                         <a href="./login-signup/login.html"><button class="cabecalho-menu-botao-entrar" type="button">Entrar</button></a>
@@ -115,14 +118,21 @@
                 </div>
             </section>
         </div>
-
-        <div class="contato">
-            <h1 id="botao-contato" class="">
-                Contato
-            </h1>
-            <p>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
-            texto texto texto texto texto texto</p>
-        </div>
+        
+        <section class="contato">
+            <div class="titulo-contato">
+                <h1 id="botao-contato" class="">
+                    Contato
+                </h1>
+                <p>Tem alguma dúvida? Quer trabalhar conosco? Entre em contato!</p>
+            </div>
+            <div class="div-inputs">
+                <input type="text" placeholder="Seu nome" class="inpt">
+                <input type="text" placeholder="Seu e-mail" class="inpt">
+                <textarea placeholder="Escreva aqui" class="msg"></textarea>
+                <input class="btn_submit" type="submit" value="Enviar">
+            </div>
+        </section>
 
         <footer>
             <div class="rodape">

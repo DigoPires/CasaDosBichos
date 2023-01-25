@@ -18,6 +18,10 @@ html, body {
     justify-content: space-around;
 }
 
+.cabecalho-lista {
+    margin: auto;
+}
+
 .cabecalho-menu {
     margin-left: 20px;
     display: flex;
@@ -32,7 +36,7 @@ html, body {
 }
 
 .cabecalho-menu-itens {
-    margin-right: 10px;
+    margin: auto;
     text-decoration: none;
     color: white;
 
@@ -98,7 +102,7 @@ html, body {
 }
 
 .menu {
-    margin-bottom: 48px;
+    margin-bottom: 150px;
 }
 
 .menu-titulo {
@@ -205,10 +209,57 @@ html, body {
 }
 
 .contato {
-    padding: 30px;
     color: white;
     text-align: center;
     background-color: rgb(32, 32, 32);
+}
+
+.div-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.inpt {
+    width: 500px;
+    height: 40px;
+    padding: 10px 18em 10px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f5f2f2;
+}
+
+textarea {
+    border: none;
+    border-radius: 20px;
+    background-color: #f5f2f2;
+    padding: 10px 18em 10px 10px;
+    width: 500px;
+    height: 200px;
+}
+
+.btn_submit {
+    border: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #E54E4E;
+}
+
+.btn_submit:hover {
+    background-color:  rgb(80, 0, 0);
+    color: white;
+}
+
+.textarea.msg {
+    position: absolute;
 }
 
 .rodape {
