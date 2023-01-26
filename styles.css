@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -99,6 +100,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .menu {
@@ -147,6 +149,7 @@ html, body {
 }
 
 .conteudo-adote {
+    color: white;
     font-size: 40px;
     position: absolute;
     margin: 2px;
@@ -332,3 +335,21 @@ textarea {
     
     }
 }
+
+@media (max-width: 1360px) {
+
+    * {
+        margin-right: -1px;
+    }
+
+    .conteudo-adote {
+        padding: 130px;
+    }
+
+    .conteudo-animal {
+        width: 370px;
+        height: 320px;
+    }
+}
+
+
