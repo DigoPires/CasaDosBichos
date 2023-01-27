@@ -4,6 +4,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: none;
 }
 
 html, body {
@@ -337,10 +338,6 @@ textarea {
 }
 
 @media (max-width: 1360px) {
-
-    * {
-        margin-right: -1px;
-    }
 
     .conteudo-adote {
         padding: 130px;

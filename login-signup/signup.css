@@ -29,7 +29,7 @@ body {
 }
 
 .inicio:hover {
-    color: rgb(90, 90, 90);
+    color: #E54E4E;;
 }
 
 .div-logo {
@@ -71,7 +71,9 @@ body {
 }
 
 .button-entrar:hover {
-    background-color: rgb(90, 90, 90);
+    border-color: #E54E4E;
+    color: #E54E4E;
+    background-color: rgb(46, 46, 46);
 }
 
 .section-cadastro-2 {
@@ -115,7 +117,9 @@ input {
 }
 
 .button-cadastrar:hover {
-    background-color: rgb(90, 90, 90);
+    border-color: #E54E4E;
+    color: #E54E4E;
+    background-color: rgb(46, 46, 46);
 }
 
 @media (max-width: 1440px) {
